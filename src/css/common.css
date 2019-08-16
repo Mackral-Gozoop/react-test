@@ -1,0 +1,290 @@
+/*@font-face {
+    font-family: 'Mirai-Light';
+    src: url('../fonts/Mirai-Light.eot');
+    src: url('../fonts/Mirai-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mirai-Light.woff2') format('woff2'),
+        url('../fonts/Mirai-Light.woff') format('woff'),
+        url('../fonts/Mirai-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}*/
+html, body, .small-page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.small-page .page-content{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.small-page .page-body {
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    /*flex-direction: column;*/
+}
+.small-page header, 
+.small-page .page-body, 
+.small-page footer {
+    flex-shrink: 0;
+    width: 100%;
+}
+.small-page .page-body{
+    /*overflow-x: hidden;*/
+    font-size: 16px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+.small-page .page-body>div{
+    width: 100%;
+    color: #fff;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color: #d6e033;
+}
+.relative-box{
+    position: relative;
+}
+.max-800{
+    max-width: 800px;
+}
+.coming-soon-page .page-content:after,
+.coming-soon-page .page-content:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.coming-soon-page .page-content:after{
+    background-image: url('../img/bg-02.jpg');
+    background-size: cover;
+    z-index: -2;
+}
+.coming-soon-page .page-content:before{
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+.logo{
+    max-width: 250px;
+    margin: 40px auto 15px;
+}
+.logo>img{
+    width: 100%;
+}
+.coming-data{
+    padding: 30px 0;
+    margin: 0 auto;
+}
+.coming-data h2{
+    font-size: 30px;
+}
+.social-media-links{
+    list-style: none;
+    padding-left: 0;
+    font-size: 22px;
+}
+.social-media-links>li{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.text-center{
+    text-align: center;
+}
+.d-flex{
+    display: -ms-flexbox;
+    display: flex;
+}
+.align-items-center {
+    -ms-flex-align: center;
+    align-items: center;
+}
+.justify-content-center {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+/*.social-media-links>li a{
+    color: #fff;
+}
+.social-media-links>li a:hover{
+    color: #d6e033;
+}*/
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }
+}
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 576px){
+    .container {
+        max-width: 540px;
+    }
+}
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*start screen and (-ms-high-contrast: active), (-ms-high-contrast: none)*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+   /* IE10+ specific styles go here */  
+}
+/*end screen and (-ms-high-contrast: active), (-ms-high-contrast: none)*/
+/*start only screen and (min-width: 1800px)*/
+@media only screen and (min-width: 1800px) {
+    body,
+    .small-page .page-body{
+        font-size: 18px;
+    }
+}
+/*end only screen and (min-width: 1800px)*/
+/*start only screen and (min-width: 2560px)*/
+@media only screen and (min-width: 2560px){
+    body,
+    .small-page .page-body {
+        /*font-size: 30px;*/
+    }
+}
+/*end only screen and (min-width: 2560px)*/
+/*start (min-width: 2000px)*/
+@media (min-width: 2000px){
+    .container {
+        max-width: 1600px;
+    }
+}
+/*end (min-width: 2000px)*/
+/*start (min-width: 1300px)*/
+@media (min-width: 1300px){
+    .container {
+        max-width: 1180px;
+    }
+}
+/*end (min-width: 1300px)*/
+/*start (min-width: 1440px) and (max-width: 1460px)*/
+@media (min-width: 1440px) and (max-width: 1460px){    
+    .small-page .page-body{
+        font-size: 17px;
+    }
+}
+/*end (min-width: 1440px) and (max-width: 1460px)*/
+/*start only screen and (max-width: 1200px)*/
+@media only screen and (max-width: 1200px) {
+    body{
+        font-size: 16px;
+    }
+    .small-page .page-body{
+        font-size: 14px;
+    }
+}
+/*end only screen and (max-width: 1200px)*/
+/*start only screen and (width: 768px)*/
+@media only screen and (width: 768px) {
+    body,
+    .small-page .page-body{
+        font-size: 14px;
+    }
+}
+/*end only screen and (width: 768px)*/
+/*start only screen and (max-width: 768px)*/
+@media only screen and (max-width: 768px) {
+    .coming-data h2 {
+        font-size: 20px;
+    }
+    .coming-soon-page .page-content:after,
+    .coming-soon-page .page-content:before{
+        content: "";
+        position: fixed;
+    }
+}
+/*end only screen and (max-width: 768px)*/
+/*start only screen and (min-width: 768px)*/
+@media only screen and (min-width: 768px) {
+}
+/*end only screen and (min-width: 768px)*/
+/*start only screen and (min-width: 769px)*/
+@media only screen and (min-width: 769px) {
+}
+/*end only screen and (min-width: 769px)*/
+/*start only screen and (max-width: 767px)*/
+@media only screen and (max-width: 767px) {  
+    .small-page .page-body{
+        font-size: 12px;
+    }
+}
+/*end only screen and (max-width: 767px)*/
+/*start only screen and (max-width: 768px)*/
+@media only screen and (max-width: 768px) {   
+
+}
+/*end only screen and (max-width: 768px)*/
+/*start only screen and (max-width: 992px)*/
+@media only screen and (max-width: 992px) {   
+}
+/*end only screen and (max-width: 992px)*/
+/*start only screen and (max-width: 1100px)*/
+@media only screen and (max-width: 1100px) {  
+}
+/*end only screen and (max-width: 1100px)*/
+/*start only screen and (min-width: 1100px)*/
+@media only screen and (min-width: 1100px) {   
+}
+/*end only screen and (min-width: 1100px)*/
+/*start only screen and (min-width: 760px) and (max-width: 800px)*/
+@media only screen and (min-width: 760px) and (max-width: 800px) {
+}
+/*end only screen and (min-width: 760px) and (max-width: 800px)*/
+/*start only screen and (min-width: 850px) and (max-width: 900px)*/
+@media only screen and (min-width: 850px) and (max-width: 900px) {
+}
+/*end only screen and (min-width: 850px) and (max-width: 900px)*/
+/*start only screen and (min-width: 768px) and (max-width: 1100px)*/
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
+    body, .small-page .page-body {
+        font-size: 18px;
+    }
+}
+/*end only screen and (min-width: 768px) and (max-width: 1100px)*/
+/*start only screen and (min-width: 1030px)*/
+@media only screen and (min-width: 1030px) {
+    
+}
+/*end only screen and (min-width: 1030px)*/
+/*start only screen and (max-width: 400px)*/
+@media only screen and (max-width: 400px) {
+}
+/*end only screen and (max-width: 400px)*/
+/*start screen and (max-width: 460px)*/
+@media only screen and (max-width: 460px) {
+}
+/*end screen and (max-width: 460px)*/
+/*start screen and (max-width: 1200px)*/
+@media only screen and (max-width: 1200px) {  
+}
+/*end screen and (max-width: 1200px)*/
+/*start screen and (min-width: 1200px)*/
+@media only screen and (min-width: 1200px) {
+}
+/*end screen and (min-width: 1200px)*/
+/*start screen and (min-width: 2000px)*/
+@media only screen and (min-width: 2000px) {
+    
+}
+/*end screen and (min-width: 2000px)*/
