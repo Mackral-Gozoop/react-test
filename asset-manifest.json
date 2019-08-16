@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Mackral-Gozoop/react-test.git/static/css/main.1cba396b.chunk.css",
-    "main.js": "/Mackral-Gozoop/react-test.git/static/js/main.9ed7af4c.chunk.js",
-    "main.js.map": "/Mackral-Gozoop/react-test.git/static/js/main.9ed7af4c.chunk.js.map",
-    "runtime~main.js": "/Mackral-Gozoop/react-test.git/static/js/runtime~main.3fab9083.js",
-    "runtime~main.js.map": "/Mackral-Gozoop/react-test.git/static/js/runtime~main.3fab9083.js.map",
-    "static/js/2.9f07da43.chunk.js": "/Mackral-Gozoop/react-test.git/static/js/2.9f07da43.chunk.js",
-    "static/js/2.9f07da43.chunk.js.map": "/Mackral-Gozoop/react-test.git/static/js/2.9f07da43.chunk.js.map",
-    "index.html": "/Mackral-Gozoop/react-test.git/index.html",
-    "precache-manifest.9fe6c63871f1f19aa87edda0c71fc2b4.js": "/Mackral-Gozoop/react-test.git/precache-manifest.9fe6c63871f1f19aa87edda0c71fc2b4.js",
-    "service-worker.js": "/Mackral-Gozoop/react-test.git/service-worker.js",
-    "static/css/main.1cba396b.chunk.css.map": "/Mackral-Gozoop/react-test.git/static/css/main.1cba396b.chunk.css.map",
-    "static/media/common.css": "/Mackral-Gozoop/react-test.git/static/media/bg-02.645d5d2c.jpg"
+    "main.css": "/react-test/static/css/main.604f131a.chunk.css",
+    "main.js": "/react-test/static/js/main.d57c5f9f.chunk.js",
+    "main.js.map": "/react-test/static/js/main.d57c5f9f.chunk.js.map",
+    "runtime~main.js": "/react-test/static/js/runtime~main.6b93d3ca.js",
+    "runtime~main.js.map": "/react-test/static/js/runtime~main.6b93d3ca.js.map",
+    "static/js/2.9f07da43.chunk.js": "/react-test/static/js/2.9f07da43.chunk.js",
+    "static/js/2.9f07da43.chunk.js.map": "/react-test/static/js/2.9f07da43.chunk.js.map",
+    "index.html": "/react-test/index.html",
+    "precache-manifest.da53c9191a8f9fb2845ab87d3e02a53c.js": "/react-test/precache-manifest.da53c9191a8f9fb2845ab87d3e02a53c.js",
+    "service-worker.js": "/react-test/service-worker.js",
+    "static/css/main.604f131a.chunk.css.map": "/react-test/static/css/main.604f131a.chunk.css.map",
+    "static/media/common.css": "/react-test/static/media/bg-02.645d5d2c.jpg"
   }
 }
