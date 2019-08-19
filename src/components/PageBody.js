@@ -1,10 +1,12 @@
 import React from 'react'
+import logo from '../img/logo-white.png';
 
 const PageBody = () => {
 	return (
 		<div className="page-body">  
                     <div>     
                         <div className="container">
+            				<div className="logo"><img src={logo} className="w-100" alt="logo" /></div>
                             <div className="coming-data max-800 m-auto text-center">
                                 <h2>Something Awesome is in the Works</h2>
                                 TribeVibe Entertainment Pvt. Ltd. is a BookMyShow joint venture established in 2019 that aims to revolutionize the college festival scene starting locally in India and then eventually moving on to global shores. <br/><br/>

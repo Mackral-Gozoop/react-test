@@ -8,6 +8,7 @@
     font-weight: 300;
     font-style: normal;
 }*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 html, body, .small-page, #root {
     width: 100%;
     height: 100%;
